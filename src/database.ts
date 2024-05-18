@@ -11,8 +11,6 @@ const DB_PORT = parseInt(process.env.DB_PORT, 10);
 const DB_USER = process.env.DB_USER;
 const DB_NAME = process.env.DB_NAME;
 
-
-
 export const AppDataSource = new DataSource({
     type: "postgres",
     host: DB_HOST,
