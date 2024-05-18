@@ -4,7 +4,7 @@ import { Videogames } from "./entities/Videogames"
 import * as dotenv from "dotenv";
 
 dotenv.config();
-
+//comment
 const DB_HOST = process.env.DB_HOST;
 const DB_PASSWORD = process.env.DB_PASSWORD;
 const DB_PORT = parseInt(process.env.DB_PORT, 10);
